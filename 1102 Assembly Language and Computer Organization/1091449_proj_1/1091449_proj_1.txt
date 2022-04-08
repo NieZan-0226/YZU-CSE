@@ -1,0 +1,11 @@
+main
+	1.先設MAX_TIME = 100
+	2.輸出"Input a number:"後輸入數字
+	3.輸入數字之後判斷是否>=100跟<0
+	4.跳到 funtion
+	5.輸出"The damage:"後輸出a0的值也就是最後的F(x)
+function
+	F(x)有分6種，function1為1<x<=10，function2為10<x<=20，function3為x>20，function4為x=1，function5為x=0，function6為x<0
+	funtion為判斷x值大小去跳到各自要去的function
+	1.stack開兩個32-bit words 存a0跟return address
+	2.t0跟t1主要是存原本的a0值去做運算
