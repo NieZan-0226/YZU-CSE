@@ -13,7 +13,6 @@ main:
 	li a7,5 		#read input
 	ecall
 	bge a0, s0, End		#x >= 100
-	bltz a0, End		#x < 0
 	
 	jal function
 	
