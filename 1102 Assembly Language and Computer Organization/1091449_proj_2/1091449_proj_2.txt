@@ -1,0 +1,5 @@
+1.用map去紀錄3-bit和SN,WN,WT,ST的輸出值
+2.histroy值去紀錄前面3次的outcome值
+3.將histroy對應的位置輸出prediction
+4.如果prediction與outcome的值為不一樣的mispredition+1
+5.prediction與outcome值不一樣時會去改histroy對應的位置的值
