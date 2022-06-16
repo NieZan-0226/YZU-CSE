@@ -1,0 +1,9 @@
+1.一行一行讀資訊，將資訊分割(利用ss)後，判斷RS裡面哪個是空的而去issue進去
+2.RS1到RS3優先順序為RS1>RS2>RS3
+3.RS4跟RS5優先順序為RS4>RS5
+4.在issue時判斷加減乘除去推入加減乘除與兩個要運算的數字(或是在RAT還沒被write back的值)
+5.BUFFER1為RS1到RS3，BUFFER2為RS4與RS5
+6.首先將RF值改掉，並且將RAT裡的空間縮減
+7.判斷RS的oper是否等於BUFFER要write back的地方
+8.write back到RS裡
+9.輸入想要得到的cycle數後會得到想要看到的內部RS、RF、RAT值
