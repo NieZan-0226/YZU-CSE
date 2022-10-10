@@ -1,0 +1,55 @@
+ul {
+	position: absolute;
+	top: 140px;
+	list-style-type: none;
+	/* 去除項目清單的小黑點 */
+}
+
+h2 {
+	font-size: 20pt;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	color: #1900ff69;
+	font-family: 標楷體;
+}
+
+a.test :link {
+	text-decoration: none;
+	color: #6EFFFF;
+	font-size: 12px;
+	font-family: Arial;
+
+}
+
+a.test :visited {
+	text-decoration: none;
+	color: #CFCFCF;
+}
+
+a.test :hover {
+	text-decoration: none;
+	background-position: left bottom;
+	/* 滑鼠移過去變色(hover的功能)*/
+	color: #00fa2a;
+}
+
+a.test :active {
+	text-decoration: none;
+	color: #F00000;
+}
+
+div.rong {
+    position: absolute;
+    left: 600px;
+    top: 150px
+}
+
+div.a {
+    position: absolute;
+	left:350px;
+	top: 300px;
+	font-size: 100px;
+	text-shadow: 0px 0px 7px rgb(0, 0, 0);
+	color: rgb(43, 255, 0);
+}
